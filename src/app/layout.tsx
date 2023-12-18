@@ -4,8 +4,10 @@ import './globals.css'
 import Navbar from '../components/navbar'
 import About from '../components/about'
 import Footer from '../components/footer'
+import Contact from '../components/contact'
 import Members from '../components/members'
 import Gallery from '../components/gallery'
+import Activity from '../components/activity'
 
 const montserrat = Montserrat({ subsets: ['latin'] })
 
@@ -24,8 +26,10 @@ export default function RootLayout({
       <body className={montserrat.className}>
         <Navbar />
         <About />
-        <Members />
+        <Activity />
+        {/* <Members /> */}
         <Gallery />
+        <Contact />
         <Footer />
 
         {children}
