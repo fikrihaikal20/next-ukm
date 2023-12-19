@@ -6,7 +6,7 @@ import { useState } from 'react';
 export default function Gallery() {
     const [activeTab, setActiveTab] = useState(null);
 
-    const handleBtn = (tab: string) => {
+    const handleBtn = (tab: any) => {
         setActiveTab(tab);
     }
 
