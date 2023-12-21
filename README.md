@@ -16,11 +16,11 @@ UKM Renang Universitas Brawijaya Website is a comprehensive online platform desi
 * Contact Form: Users can easily reach out to the UKM Renang Universitas Brawijaya through a contact form.
 
 ## Built With
-* [![Node][Node.js]][Node-url]
-* [![Typescript][Typescript]][Typescript-url]
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Tailwind][Tailwind-css]][Tailwind-url]
+* ![NodeJS](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+* [![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+* ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+* ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+* [![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 
 ## Getting Started
 
