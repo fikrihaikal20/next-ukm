@@ -7,7 +7,7 @@ import Mail from '../../public/Mail.svg'
 
 export default function Contact() {
   return (
-    <section className='h-full w-full px-4 sm:px-20 2xl:px-16 mt-20 lg:mt-5'>
+    <section className='h-full w-full px-4 sm:px-20 2xl:px-16 mt-20 lg:mt-5' id='Contact'>
       <div className='pb-10'>
         <h1 className='text-3xl text-center font-bold'>Contact Us</h1>
       </div>

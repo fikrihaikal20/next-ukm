@@ -48,22 +48,22 @@ export default function Navbar() {
               <Link href={'/'}>
                 <li className='ml-10 hover:boder-b text-xl'>Home</li>
               </Link>
-              <Link href={'/about'}>
+              <Link href={'#about'}>
                 <li className='ml-10 hover:boder-b text-xl'>About</li>
               </Link>
-              <Link href={'/activity'}>
+              <Link href={'#activity'}>
                 <li className='ml-10 hover:boder-b text-xl'>Activity</li>
               </Link>
-              <Link href={'/member'}>
+              <Link href={'#member'}>
                 <li className='ml-10 hover:boder-b text-xl'>Member</li>
               </Link>
-              <Link href={'/galery'}>
+              <Link href={'#galery'}>
                 <li className='ml-10 hover:boder-b text-xl'>Galery</li>
               </Link>
             </ul>
           </div>
           <div className='hidden md:flex'>
-            <Link href={'/'} className='text-xl'>Contact Us</Link>
+            <Link href={'#Contact'} className='text-xl'>Contact Us</Link>
           </div>
           <div onClick={handleNav} className='md:hidden cursor-pointer pl-24'>
             <AiOutlineMenu size={25} />

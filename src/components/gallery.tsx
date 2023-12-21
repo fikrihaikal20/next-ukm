@@ -72,7 +72,7 @@ export default function Gallery() {
   const imageData = getImageData();
 
   return (
-    <div className='grid grid-cols-1 items-center h-full mb-20 w-full px-4 sm:px-20 2xl:px-16 mt-20'>
+    <div className='grid grid-cols-1 items-center h-full mb-20 w-full px-4 sm:px-20 2xl:px-16 mt-20' id='galery'>
       <div>
         <h1 className='text-3xl font-bold text-center'>Gallery</h1>
         <p className='mt-4 w-[80%] text-center mx-auto'>
