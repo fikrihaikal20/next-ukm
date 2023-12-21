@@ -6,10 +6,11 @@
 </p>
 
 ## Built With
-
+* [![Node][Node.js]][Node-url]
+* [![Typescript][Typescript]][Typescript-url]
 * [![Next][Next.js]][Next-url]
 * [![React][React.js]][React-url]
-* [![React][Tailwind-css]][Tailwind-url]
+* [![Tailwind][Tailwind-css]][Tailwind-url]
 
 ## Getting Started
 
@@ -55,6 +56,10 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[Node.js]: https://img.shields.io/badge/Node%20Js-20232A?style=for-the-badge&logo=nodedotjs
+[Node-url]: https://nodejs.org/en
+[Typescript]: https://img.shields.io/badge/Typescript-20232A?style=for-the-badge&logo=typescript
+[Typescript-url]: https://www.typescriptlang.org/
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
