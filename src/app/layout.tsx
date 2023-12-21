@@ -27,7 +27,7 @@ export default function RootLayout({
         <Navbar />
         <About />
         <Activity />
-        {/* <Members /> */}
+        <Members />
         <Gallery />
         <Contact />
         <Footer />

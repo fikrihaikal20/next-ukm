@@ -17,7 +17,7 @@ export default function Navbar() {
     className="flex flex-col min-h-screen bg-slate-800 text-white bg-center bg-cover bg-blend-overlay bg-fixed bg-black/30"
     style={{ backgroundImage: `url(${background.src})` }}
     >
-      <nav className='fixed w-full h-24 shadow-xl bg-transparent'>
+      <nav className='fixed w-full h-24 shadow-xl bg-black z-50'>
         <div className='flex justify-between items-center h-full w-full px-4 sm:px-20 2xl:px-16'>
           <Link href={''}>
             <Image
