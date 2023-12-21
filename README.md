@@ -5,6 +5,11 @@
 <img src="./public/demo.PNG" width="600"><br>
 </p>
 
+## Built With
+
+* [![Next][Next.js]][Next-url]
+* [![React][React.js]][React-url]
+
 ## Getting Started
 
 ### Prerequisites
