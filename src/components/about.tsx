@@ -1,6 +1,6 @@
 "use client"
 import Image from 'next/image'
-import about from '../../public/about.png'
+import about from '../../public/about.svg'
 
 
 export default function About() {

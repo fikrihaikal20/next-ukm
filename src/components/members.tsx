@@ -1,5 +1,6 @@
 "use client"
 import Image from 'next/image'
+import dicky from '../../public/dicky.svg'
 import Ketua from '../../public/ketua.svg'
 import wakil from '../../public/wakil.svg'
 import Bendahara2 from '../../public/bendahara2.svg'
@@ -15,11 +16,32 @@ export default function Members() {
     dots: true,
     infinite: true,
     speed: 100,
-    slidesToShow: 3,
-    slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
-
+    slidesToShow: 3,
+    responsive: [
+      {
+        breakpoint: 640, // Mobile breakpoint
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 768, // Tablet breakpoint
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 1024, // Tablet breakpoint
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
   return (
     <div className='grid grid-cols-1 items-center  h-full w-full px-4 sm:px-20 2xl:px-16 mt-20'>
@@ -47,8 +69,8 @@ export default function Members() {
 
 const data = [
   {
-    nama: `Raihan Salsabila`,
-    img: Ketua,
+    nama: `Dicky Surya D`,
+    img: dicky,
     jabatan: `ketua`
   },
   {

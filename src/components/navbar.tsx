@@ -4,11 +4,27 @@ import logo from '../../public/logo.svg'
 import background from '../../public/background.png'
 import Link from 'next/link'
 import { AiOutlineClose, AiOutlineInstagram, AiOutlineMenu, AiOutlineTwitter, AiOutlineWhatsApp } from 'react-icons/ai'
-import { useState } from 'react'
+import { useState,useEffect  } from 'react'
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false)
+  const [scrolling, setScrolling] = useState(false);
 
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setScrolling(true);
+      } else {
+        setScrolling(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
   const handleNav = () => {
     setMenuOpen(!menuOpen);
   }
@@ -17,7 +33,7 @@ export default function Navbar() {
     className="flex flex-col min-h-screen bg-slate-800 text-white bg-center bg-cover bg-blend-overlay bg-fixed bg-black/30"
     style={{ backgroundImage: `url(${background.src})` }}
     >
-      <nav className='fixed w-full h-24 shadow-xl bg-black z-50'>
+      <nav className={`fixed w-full h-24 shadow-x z-50 ${scrolling ? 'bg-black' : 'bg-transparent'}`}>
         <div className='flex justify-between items-center h-full w-full px-4 sm:px-20 2xl:px-16'>
           <Link href={''}>
             <Image
