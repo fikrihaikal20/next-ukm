@@ -18,7 +18,7 @@
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/fikrihaikal20/next-ukm.git
    ```
 2. Install NPM packages
    ```sh
