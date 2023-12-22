@@ -69,8 +69,8 @@ export default function Members() {
 
 const data = [
   {
-    nama: `Dicky Surya D`,
-    img: dicky,
+    nama: `Raihan Salsabila`,
+    img: Ketua,
     jabatan: `ketua`
   },
   {
