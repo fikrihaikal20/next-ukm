@@ -103,7 +103,7 @@ export default function Gallery() {
             onClick={() => handleBtn('kramsi')}
             className={`text-sm cursor-pointer py-4 rounded-md ${activeTab === 'kramsi' ? 'bg-[#0075B3] text-white' : ''}`}
           >
-            KRAMSI
+            LATIHAN
           </div>
         </div>
       </div>
