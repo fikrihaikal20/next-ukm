@@ -9,7 +9,8 @@ import foto5 from '../../public/foto5.png'
 import foto6 from '../../public/foto6.png'
 import foto7 from '../../public/foto7.png'
 import foto8 from '../../public/foto8.png'
-
+import bg from '../../public/bg.svg'
+import gelombang from '../../public/gelombang.svg'
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import 'swiper/css';
@@ -21,7 +22,7 @@ import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
 
 export default function Activity() {
   return (
-    <section className='h-full w-full px-4 sm:px-20 2xl:px-16 mt-20 lg:mt-5' id='activity'>
+    <section className='h-full w-full text-white px-4 sm:px-20 2xl:px-16 mt-20 lg:mt-5' id='activity'>
       <div className="container">
         <h1 className="text-3xl font-bold text-center mb-10">Our Activity</h1>
         <Swiper

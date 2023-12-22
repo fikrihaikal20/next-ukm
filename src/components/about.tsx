@@ -5,7 +5,7 @@ import about from '../../public/about.svg'
 
 export default function About() {
   return (
-    <section className='h-full w-full px-4 sm:px-20 2xl:px-16 mt-20 mb-20 lg:mt-5' id='about'>
+    <section className='h-full w-full text-white px-4 sm:px-20 2xl:px-16 mb-20 pt-5 bg-[#0F3663]' id='about'>
       <div className='pb-10 lg:invisible'>
         <h1 className='text-3xl text-center font-bold'>About Us</h1>
       </div>
